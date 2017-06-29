@@ -30,4 +30,12 @@ dependencies {
     //butterknife
     compile 'com.jakewharton:butterknife:8.5.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //okhttp
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    //日志拦截器
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    //Gson解析
+    compile 'com.google.code.gson:gson:2.8.0'
+    //mosby。MVP
+    compile 'com.hannesdorfmann.mosby:mvp:2.0.1'
 }
